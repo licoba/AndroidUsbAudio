@@ -4,10 +4,19 @@
 
     package="com.moriafly.usbaudio">
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.SE_SIP" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <uses-permission android:name="android.permission.USB_PERMISSION" />
+
+
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+
 
     <application
         android:allowBackup="true"

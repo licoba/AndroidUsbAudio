@@ -19,7 +19,7 @@ add_library(libusb
         IMPORTED)
 set_target_properties(libusb
         PROPERTIES IMPORTED_LOCATION
-        ${libusb_so_dir}/libusb.so)
+        ${libusb_so_dir}/libusb1.0.so)
 
 # 配置目标 so 库编译信息
 add_library( # Sets the name of the library.

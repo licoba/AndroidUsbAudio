@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initLib() {
 //        System.loadLibrary("usbaudio");
-//        mUsbAudio = UsbAudio()
+        mUsbAudio = UsbAudio()
 //        mUsbAudio.loop()
     }
 
